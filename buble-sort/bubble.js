@@ -22,6 +22,6 @@ const bubbleSortHelper = (list, pointer) => {
 };
 
 const bubbleSort = list =>
-    bubbleSortHelper(list, list.length ? list.length - 1 : 0);
+    bubbleSortHelper(list, list.length - 1);
 
 export default bubbleSort;
