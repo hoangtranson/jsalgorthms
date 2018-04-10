@@ -10,6 +10,7 @@
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     },
+    "verbose": true,
     "collectCoverage": true,
     "coverageThreshold": {
       "global": {
@@ -19,7 +20,10 @@
         "statements": 80
       }
     },
-    "coverageReporters": ["json", "html"]
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
   },
   "repository": {
     "type": "git",
